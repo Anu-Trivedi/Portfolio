@@ -1,0 +1,139 @@
+/* CSS for Portfolio */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 300px;
+}
+
+header,
+footer {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+}
+
+/* Logo text on header left corner*/
+.logo {
+  float: left;
+  color: white;
+  padding: 15px 5px;
+  font-size: 26px;
+  font-family: "Cursive", sans-serif;
+  letter-spacing: 1px;
+}
+
+nav ul {
+  float: right;
+  margin: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+  margin-left: 30px;
+  padding-top: 23px;
+  font-family: "Poppins", sans-serif;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+nav a:hover {
+  color: brown;
+  background-color: white;
+}
+
+h2,
+h3 {
+  text-align: center;
+  letter-spacing: 3px;
+  font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+.sections {
+  background-color: #eaeaf0;
+}
+
+.profileimg {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 300px;
+  height: 300px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.subtitle {
+  letter-spacing: 2px;
+  color: #6b7280;
+  font-weight: 600;
+  text-align: center;
+  margin: 0
+}
+
+.title {
+  font-size: 36px;
+  font-weight: 400;
+  color: #1f2937;
+  text-align: center;
+  margin: 0;
+}
+
+.title span {
+  color: blue;
+  font-weight: 600;
+}
+
+.red {
+  color: #FF0000;
+}
+
+.blue {
+  color: #3838EE;
+}
+
+hr {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p,
+.qualities,
+.contactme {
+  color: black;
+  line-height: 1.5em;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: lighter;
+}
+
+.footer {
+  color: white;
+  font-size: 16px;
+  padding-right: 100px;
+}
+
+.footer a:link {
+  color: lightgray;
+}
+
+.footer a:hover {
+  color: pink;
+}
+
+.footer a:visited {
+  color: white;
+}
