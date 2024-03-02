@@ -120,6 +120,10 @@ p,
   font-weight: lighter;
 }
 
+.contactme a {
+  text-decoration: none;
+}
+
 .footer {
   color: white;
   font-size: 16px;
@@ -136,8 +140,4 @@ p,
 
 .footer a:visited {
   color: white;
-}
-
-.contactme a{
-  text-decoration: none;
 }
