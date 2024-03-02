@@ -61,7 +61,7 @@ h3 {
   font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
-.sections {
+.main {
   background-color: #eaeaf0;
 }
 
@@ -126,14 +126,18 @@ p,
   padding-right: 100px;
 }
 
-.footer a:link {
+.footer a:link{
   color: lightgray;
 }
 
-.footer a:hover {
+.footer a:hover{
   color: pink;
 }
 
 .footer a:visited {
   color: white;
+}
+
+.contactme a{
+  text-decoration: none;
 }
